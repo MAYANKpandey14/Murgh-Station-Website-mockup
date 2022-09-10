@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.Main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #bbb8b8;
+    position: relative;
+}
+
+nav{
+
+    display:flex;
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-self: space-between;
+}
+
+.logo{
+
+margin-right: 23%;
+width: 28%;
+cursor: pointer;
+
+
+}
+
+nav ul li {
+
+    display:inline-block;
+    list-style: none;
+    margin: 15px 25px;
+
+}
+
+nav ul li a{
+
+    font-family: 'Baloo 2', cursive;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18.5px;
+    
+}
+
+nav ul li a:hover{
+    color: #ff7434;
+    text-shadow: 1px 8px 15px #020202;
+    font-weight: bold;
+
+}
+
+.content{
+    margin-left: 7%;
+    margin-top: 10%;
+   
+}
+
+.content h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 1%;
+    font-family: 'Baloo 2', cursive;
+    
+
+}
+   
+span{
+    color: #ff7434;
+    height: 47.35%;
+    position: absolute;
+    left: 39%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    
+}
+
+span:hover{
+    color: #fc2424;
+    cursor: pointer;
+        left: 40%;
+        text-shadow: 0px 4px 60px #1f1e1e;
+    }
+
+
+
+.content p{
+    color: #555;
+    line-height: 10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.content a{
+    background: #212121;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+    display: inline-block;
+    margin: 22.5px 0;
+    border-radius: 5px;
+    
+    }
+
+    .images{
+        width: 45%;
+        height: 72.5%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+        
+        
+      }
+
+
+      .images img{
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;}
+
+
+
+        .images:hover .shape{
+            bottom: 18px;
+        }
+        
+        .images:hover .shawarma{
+            left: 47.5%;
+        }
